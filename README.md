@@ -1,4 +1,8 @@
 # Brain_Age_Pred
 ## Brain Age Prediction via VAE and Transformers on Multi-Pipeline OpenBHB Data
 
+This project was a joint work with Yubo Shao, Kexin Guo, Jason Manassa, and Sean Hickey for the EECS 545 Machine Learning course project.
+
 Brain age prediction utilizing MRI data has been a hot topic of discussion due to its promising ability to detect neurodegenerative diseases and characterize brain health across a person’s life. However, these MRI datasets are taken at different imaging sites, thereby introducing variability in the data from alterations in scanner, field strength, and acquisition settings.  This variability makes generalization inaccurate and the combined data unusable. Prior work on harmonization techniques like ComBat have yielded promising results, but the quality of features passed onto later models in the processing pipeline is limited. In order to address both of these issues, we attempted to draft a unique pipeline that combined ComBat harmonization with variational autoencoders (VAE) and transformer architectures to improve brain age prediction accuracy.  To assess our algorithm, we used the OpenBHB dataset, which houses a combination of thousands of MRI scans and competitors’ accuracy posted on a public leaderboard.
+
+Link to the final poster: https://docs.google.com/presentation/d/1yRTSJ-tByW6XhxluBBKOrWr88wQ78IHU1myWuTG-vok/edit?usp=sharing
